@@ -16,7 +16,7 @@ class App extends React.Component {
     super();
 
     this.state ={
-      curentUser:null
+      currentUser:null
     }
   }
 
@@ -35,8 +35,6 @@ class App extends React.Component {
               ...snapShot.data()
             }
           });
-
-          console.log(this.state);
         });
       }
       else {
